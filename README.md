@@ -61,13 +61,12 @@ You can specify parameters in order to change the behaviour of the module:
 
 
 # MOTIVATION 
-    ## Why Javascript?
-        I chose Javascript due to its great capability of easily modelling
-        dealing with data. Its dynamic typing system allows us to do things faster.
-        I would also love to do this project in Go or Typescript. But Go has some limitations (compared to JS) when
-        it comes to dealing with arrays and Typescript was not on the scope of the requirements.
+## Why Javascript?
+I chose Javascript due to its great capability of easily modelling
+dealing with data. Its dynamic typing system allows us to do things faster.
+I would also love to do this project in Go or Typescript. But Go has some limitations (compared to JS) when
+it comes to dealing with arrays and Typescript was not on the scope of the requirements.
 
-    ## Why this way?
-        Even though it is a console application, it intends to be an interactive application,
-        in order to make the user feel comfortable using it and accessing their data with no fear.
-        Thus, the app always asks for what the user wants to see after all the computing part is done.
+## Why this way?
+Even though it is a console application, it intends to be an interactive application,
+in order to make the user feel comfortable using it and accessing their data with no fear.    Thus, the app always asks for what the user wants to see after all the computing part is done.
