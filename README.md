@@ -48,7 +48,7 @@ Below are some examples:
 # HOW TO RUN THE SOLUTION
 In a terminal that has access to Node.js commands, run:
 
-    **node main.js**
+    node main.js
 
 You can specify parameters in order to change the behaviour of the module:
 
