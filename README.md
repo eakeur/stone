@@ -1,10 +1,13 @@
-HOW TO PREPARE THE SHOPPING LIST FILE
+# HOW TO PREPARE THE SHOPPING LIST FILE
 The shopping list file is a JSON file that will be located at the same path as the main.js file.
 It contains the following structure:
+
+```json
     {
         items: { name: string, price: number, quantity: number}[],
         emails: string[]
     }
+```
 That is, an array containing objects with name, price and quantity of each product,
 and another array containing e-mails.
 The price property can be either in Real (such as 1.99) or in cents (such as 199).
@@ -13,9 +16,10 @@ If the price is in cents, you must specify the parameter "input=cents" when exec
 
 
 
-HOW TO RUN THE SOLUTION
+# HOW TO RUN THE SOLUTION
 In a terminal that has access to Node.js commands, run:
     node main.js
+
 You can specify parameters in order to change the behaviour of the module:
 
     input=cents --- specifies that the price inputs are in cents. 
@@ -24,3 +28,16 @@ You can specify parameters in order to change the behaviour of the module:
     output=cent --- specifies that you want to receive values in cents.
 
     live=false --- turns off the interaction via terminal and only shows the main information at the end of the execution.
+
+
+# MOTIVATION 
+    ## Why Javascript?
+        I chose Javascript due to its great capability of easily modelling
+        dealing with data. Its dynamic typing system allows us to do things faster.
+        I would also love to do this project in Go or Typescript. But Go has some limitations (compared to JS) when
+        it comes to dealing with data and Typescript was not on the scope of the requirements.
+
+    ## Why this way?
+        Even though it is a console application, it intends to be an interactive application,
+        in order to make the user feel comfortable using it and accessing their data with no fear.
+        Thus, the app always asks for what the user wants to see after all the computing part is done.
