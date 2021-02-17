@@ -1,5 +1,5 @@
 # DESCRIPTION
-This solution will get a file containing a list with products and a list with e-mails. Then, it will compute how much each person of this e-mail list will pay, so that everyone pays a fair price and the whole debt is paid. 
+This solution will get a file containing a list with products and a list with e-mails. Then, it will compute how much each person of this e-mail list will pay, so that everyone pays a fair price and the whole debt is paid. ***After computed, you just have to type the desired e-mail to see how much the e-mail owner will pay, or press Enter to see everyone's debt or press Tab twice to see related e-mails.***
 
 
 
