@@ -62,22 +62,21 @@ function validateInput(list){
 * @param {string[]} people An array containing the email or any other unique key of the payers
 */
 function divideDebtWithPeople(totalDebt, people) {
-    var remainder = totalDebt % people.length;
-    var remainderDivider = 0;
-    if (remainder != 0) {for (var index = people.length; index > 0; index--) {if (remainder % index == 0){remainderDivider = index; break;}}
-    if (remainderDivider == 0) remainderDivider = 1;
+    var remainder = totalDebt % people.length; var remPayers = 0;
+    if (remainder != 0) {
+        for (var index = people.length; index > 0; index--) {if (remainder % index == 0){remPayers = index; break;}}
+        if (remPayers == 0) remPayers = 1;
     }
     var prices = {
-        basePrice: Math.floor(totalDebt / people.length), remainderPayers: remainderDivider, remainder: remainderDivider == 0 ? 0 : remainder / remainderDivider
+        base: Math.floor(totalDebt / people.length), 
+        remPayers: remPayers, remainder: remPayers == 0 ? 0 : remainder / remPayers
     };
 
     let divider = outputCents ? 1 : 100
     let dues = {}
     people.forEach((person, index) =>
         dues[person] =
-        index < prices.remainderPayers ?
-            (prices.basePrice + prices.remainder) / divider :
-            prices.basePrice / divider
+        index < prices.remPayers ? (prices.base + prices.remainder) / divider : prices.base / divider
     );
     return dues;
 }

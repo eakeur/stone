@@ -62,7 +62,7 @@ You can specify parameters in order to change the behaviour of the module:
 
 # MOTIVATION 
 ## Why Javascript?
-I chose Javascript due to its great capability of easily modelling
+I chose Javascript due to its great capability of easily modelling and
 dealing with data. Its dynamic typing system allows us to do things faster.
 I would also love to do this project in Go or Typescript. But Go has some limitations (compared to JS) when
 it comes to dealing with arrays and Typescript was not on the scope of the requirements.
