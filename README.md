@@ -1,5 +1,5 @@
 # HOW TO PREPARE THE SHOPPING LIST FILE
-The shopping list file is a JSON file that will be located at the same path as the main.js file.
+The shopping list file is a JSON file named "shopping_list.json" that will be located at the same path as the main.js file.
 It contains the following structure:
 
 ```json
