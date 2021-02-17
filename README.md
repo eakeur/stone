@@ -38,7 +38,7 @@ Below are some examples:
     }
 ```
 
-***REMEMBER: If the price input type is in cents, specify the parameter "imput=cents" 
+***REMEMBER: If the price input type is in cents, specify the parameter "input=cents"*** 
 
 
 
