@@ -48,7 +48,7 @@ function validateInput(list){
     throw new Error("Oops! Couldn't divide the purchase because there was nobody to divide with. Please add at least one person.");
     if (list.items == undefined || list.items.length == 0)
     throw new Error("Oops! There aren't any products in this list. Please check if the shopping list is correct.");
-    if (!list.items.every( item => item.quantity > 0 && item.price > 0))
+    if (!list.items.every( item => item.quantity > 0 && item.price > 0 && Number.isInteger(item.quantity)))
     throw new Error('Oops! Null values are not allowed for quantities or prices. Please check if every product has a price and quantity different from 0.');
     if (process.argv.slice(2).includes("input=cents") && !list.items.every( item => Number.isInteger(item.price)))
     throw new Error('Oops! If you choose cents as the input type, all prices must be integers.');
