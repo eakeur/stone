@@ -1,3 +1,8 @@
+#DESCRIPTION
+This solution will get a file containing a list with products and a list with e-mails. Then, it will compute how much each person of this e-mail list will pay, so that everyone pays a fair price and the whole debt is paid. 
+
+
+
 # HOW TO PREPARE THE SHOPPING LIST FILE
 The shopping list file is a JSON file named "shopping_list.json" that will be located at the same path as the main.js file.
 It contains the following structure:
