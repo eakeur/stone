@@ -23,9 +23,9 @@ Below are some examples:
 ```json
     {
         "items": [
-            { "name": "Arroz", "price": 21.50, "quantity": 3},
-            { "name": "Feijão", "price": 12, "quantity": 2},
-            { "name": "Carne (kg)", "price": 21.50, "quantity": 5}
+            { "name": "Rice", "price": 21.50, "quantity": 3},
+            { "name": "Beans", "price": 12, "quantity": 2},
+            { "name": "Pork meat (kg)", "price": 21.50, "quantity": 5}
         ],
         "emails": [ "igor@hireMe.com", "mum@hireMySon.com"]
     }
@@ -35,9 +35,9 @@ Below are some examples:
 ```json
     {
         "items": [
-            { "name": "Suco em pó", "price":129 , "quantity": 5},
-            { "name": "Barra de chocolate", "price": 1200, "quantity": 1},
-            { "name": "Papéis de contratação", "price": 150, "quantity": 3}
+            { "name": "Powder", "price":129 , "quantity": 5},
+            { "name": "Chocolate bar", "price": 1200, "quantity": 1},
+            { "name": "Hiring papers to hire Igor", "price": 150, "quantity": 3}
         ],
         "emails": [ "igor@hireMe.com", "mum@hireMySon.com", "stone@iHireYou.com"]
     }
