@@ -1,4 +1,4 @@
-#DESCRIPTION
+# DESCRIPTION
 This solution will get a file containing a list with products and a list with e-mails. Then, it will compute how much each person of this e-mail list will pay, so that everyone pays a fair price and the whole debt is paid. 
 
 
