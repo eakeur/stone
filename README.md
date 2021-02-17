@@ -4,21 +4,51 @@ It contains the following structure:
 
 ```json
     {
-        items: { name: string, price: number, quantity: number}[],
-        emails: string[]
+        "items": { "name": string, "price": number, "quantity": number}[],
+        "emails": string[]
     }
 ```
 That is, an array containing objects with name, price and quantity of each product,
 and another array containing e-mails.
 The price property can be either in Real (such as 1.99) or in cents (such as 199).
 If the price is in cents, you must specify the parameter "input=cents" when executing.
+Below are some examples:
+
+**Example 1 (the price is in Reais)**
+```json
+    {
+        "items": [
+            { "name": "Arroz", "price": 21.50, "quantity": 3},
+            { "name": "Feijão", "price": 12, "quantity": 2},
+            { "name": "Carne (kg)", "price": 21.50, "quantity": 5}
+        ],
+        "emails": [ "igor@hireMe.com", "mum@hireMySon.com"]
+    }
+```
+
+**Example 1 (the price is in cents)**
+```json
+    {
+        "items": [
+            { "name": "Suco em pó", "price":129 , "quantity": 5},
+            { "name": "Barra de chocolate", "price": 1200, "quantity": 1},
+            { "name": "Papéis de contratação", "price": 150, "quantity": 3}
+        ],
+        "emails": [ "igor@hireMe.com", "mum@hireMySon.com", "stone@iHireYou.com"]
+    }
+```
+
+***REMEMBER: If the price input type is in cents, specify the parameter "imput=cents" 
+
+
 
 
 
 
 # HOW TO RUN THE SOLUTION
 In a terminal that has access to Node.js commands, run:
-    node main.js
+
+    **node main.js**
 
 You can specify parameters in order to change the behaviour of the module:
 
@@ -35,7 +65,7 @@ You can specify parameters in order to change the behaviour of the module:
         I chose Javascript due to its great capability of easily modelling
         dealing with data. Its dynamic typing system allows us to do things faster.
         I would also love to do this project in Go or Typescript. But Go has some limitations (compared to JS) when
-        it comes to dealing with data and Typescript was not on the scope of the requirements.
+        it comes to dealing with arrays and Typescript was not on the scope of the requirements.
 
     ## Why this way?
         Even though it is a console application, it intends to be an interactive application,

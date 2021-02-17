@@ -1,12 +1,8 @@
 {
-    "items": [{
-        "name":"Maço de alface",
-        "price":299,
-        "quantity":3
-    }],
-
-    "emails": [
-        "a@a.com", 
-        "b@abbb.com"
-    ]
-}
+        "items": [
+            { "name": "Arroz", "price": 21.50, "quantity": 3},
+            { "name": "Feijão", "price": 12, "quantity": 2},
+            { "name": "Carne (kg)", "price": 21.50, "quantity": 5}
+        ],
+        "emails": [ "igor@hireMe.com", "mum@hireMySon.com"]
+    }
