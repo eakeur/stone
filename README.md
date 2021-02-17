@@ -31,7 +31,7 @@ Below are some examples:
     }
 ```
 
-**Example 1 (the price is in cents)**
+**Example 2 (the price is in cents)**
 ```json
     {
         "items": [
