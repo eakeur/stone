@@ -1,0 +1,12 @@
+{
+    "items": [{
+        "name":"Maço de alface",
+        "price":299,
+        "quantity":3
+    }],
+
+    "emails": [
+        "a@a.com", 
+        "b@abbb.com"
+    ]
+}
